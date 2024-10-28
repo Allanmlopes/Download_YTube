@@ -4,13 +4,13 @@ import os
 
 def baixar_video_ou_playlist(url):
     try:
-        # Primeiro, extrai informações sem baixar
+        # Extrai informações sem baixar
         ydl_opts_info = {'extract_flat': True, 'quiet': True}
         with yt_dlp.YoutubeDL(ydl_opts_info) as ydl_info:
             info_dict = ydl_info.extract_info(url, download=False)
             canal_nome = info_dict.get('uploader', 'Canal_Desconhecido')
         
-        # Cria o diretório com o nome do canal
+        # Cria um diretório com o nome do canal
         if not os.path.exists(canal_nome):
             os.makedirs(canal_nome)
         
