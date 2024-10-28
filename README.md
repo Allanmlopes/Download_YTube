@@ -1,4 +1,4 @@
-<h1>YouTube Video & Playlist Downloader</h1>
+<h2>YouTube Video & Playlist Downloader</h2>
 
 Este projeto é um script em Python para baixar vídeos individuais ou playlists inteiras do YouTube, organizando os arquivos automaticamente em pastas com base no nome do canal e, quando aplicável, no nome da playlist.
 Funcionalidades
@@ -56,6 +56,7 @@ Contribuições
 
 Contribuições são bem-vindas! Sinta-se à vontade para abrir uma issue ou enviar um pull request.
 
-__________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+___________________________________________________________________________________________________________________________________________________________________
+
 
 Esse texto fornece uma visão clara do que o projeto faz, como ele é estruturado, como funciona e como pode ser utilizado. Você pode personalizar as partes que desejar, como o nome do repositório, ou adicionar mais detalhes conforme necessário.
